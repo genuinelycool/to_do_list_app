@@ -5,6 +5,7 @@ const TaskList = ({
   tasks,
   showOnlyIncomplete,
   toggleTaskDone,
+  removeTask,
 }) => {
   
   return (
@@ -26,6 +27,7 @@ const TaskList = ({
             <TaskItem
               task={task}
               toggleTaskDone={toggleTaskDone}
+              removeTask={removeTask}
             />
           </li>
         ))}
