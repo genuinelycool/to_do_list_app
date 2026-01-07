@@ -4,6 +4,7 @@ import EditTaskForm from "./EditTaskForm";
 const TaskList = ({ 
   tasks,
   showOnlyIncomplete,
+  toggleTaskDone,
 }) => {
   
   return (
@@ -24,6 +25,7 @@ const TaskList = ({
           >
             <TaskItem
               task={task}
+              toggleTaskDone={toggleTaskDone}
             />
           </li>
         ))}
