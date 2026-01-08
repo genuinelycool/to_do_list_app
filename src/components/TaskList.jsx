@@ -9,7 +9,6 @@ const TaskList = ({
   removeTask,
   updateTask,
 }) => {
-  // const [editingTaskId, setEditingTaskId] = useState(3);
   const [editingTaskId, setEditingTaskId] = useState(null);
   
   return (
